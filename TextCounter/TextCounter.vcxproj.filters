@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PDF">
+      <UniqueIdentifier>{c570c414-bf6c-45a0-89f0-d9492647bf39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF\C">
+      <UniqueIdentifier>{7d1c1419-2524-4253-8c08-efab8d139395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF\H">
+      <UniqueIdentifier>{e3a1c923-6025-4f6b-944d-d332a3ec19da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SentencesCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextCounterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="easysize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\aconf.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\aconf2.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\AcroForm.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Annot.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Array.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\BuiltinFont.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\BuiltinFontTables.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Catalog.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\CharCodeToUnicode.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\CharTypes.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\CMap.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\CompactFontTables.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\config.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Decrypt.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Dict.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\DisplayState.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Error.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\ErrorCodes.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\FixedPoint.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\FoFiBase.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\FoFiEncodings.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\FoFiIdentifier.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\FoFiTrueType.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\FoFiType1.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\FoFiType1C.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\FontEncodingTables.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Function.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\gfile.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Gfx.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\GfxFont.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\GfxState.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\GHash.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\GList.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\GlobalParams.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\gmem.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\gmempp.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\GMutex.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\GString.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\gtypes.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\ImageOutputDev.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\JArithmeticDecoder.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\JBIG2Stream.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\JPXStream.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Lexer.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Link.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\NameToCharCode.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\NameToUnicodeTable.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Object.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\OptionalContent.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Outline.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\OutputDev.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Page.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\parseargs.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Parser.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\PDF417Barcode.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Zoox.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\XRef.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\XFAScanner.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\WebFont.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\UTF8.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\UnicodeTypeTable.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\UnicodeRemapping.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\UnicodeMapTables.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\UnicodeMap.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Trace.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\TileMap.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\TileCompositor.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\TileCache.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\TextString.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\TextOutputDev.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Stream-CCITT.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Stream.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashXPathScanner.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashXPath.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashTypes.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashState.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashScreen.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashPattern.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashPath.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashOutputDev.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashMath.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashGlyphBitmap.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashFTFontEngine.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashFTFont.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashFontFileID.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashFontFile.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashFontEngine.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashFont.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashFTFontFile.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashErrorCodes.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashClip.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SplashBitmap.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\Splash.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\ShadingImage.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\SecurityHandler.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\PSTokenizer.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\PSOutputDev.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\PreScanOutputDev.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\PDFDocEncoding.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\PDFDoc.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="xpdf\PDFCore.h">
+      <Filter>PDF\H</Filter>
+    </ClInclude>
+    <ClInclude Include="SG_PDF2TXT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SentencesCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextCounterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\AcroForm.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Annot.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Array.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\BuiltinFont.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\BuiltinFontTables.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Catalog.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\CharCodeToUnicode.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\CMap.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Decrypt.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Dict.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\DisplayState.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Error.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\FixedPoint.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\FoFiBase.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\FoFiEncodings.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\FoFiIdentifier.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\FoFiTrueType.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\FoFiType1.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\FoFiType1C.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\FontEncodingTables.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Function.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\gfile.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Gfx.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\GfxFont.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\GfxState.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\GHash.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\GString.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\gmempp.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\gmem.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\GlobalParams.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\GList.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\JArithmeticDecoder.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\ImageOutputDev.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\JBIG2Stream.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\JPXStream.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Lexer.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Link.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\NameToCharCode.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Object.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\OptionalContent.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Outline.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\OutputDev.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Page.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\parseargs.c">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Parser.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\PDF417Barcode.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\PDFCore.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\PDFDoc.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\PDFDocEncoding.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\PreScanOutputDev.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\PSOutputDev.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\PSTokenizer.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SecurityHandler.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\ShadingImage.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Splash.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashBitmap.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashClip.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashFont.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashFontEngine.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashFontFile.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashFontFileID.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashFTFont.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashFTFontEngine.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashFTFontFile.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashOutputDev.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashPath.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashPattern.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashScreen.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashState.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashXPath.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\SplashXPathScanner.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Stream.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\TextOutputDev.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\TextString.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\TileCache.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\TileCompositor.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\TileMap.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Trace.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\UnicodeMap.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\UnicodeRemapping.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\UnicodeTypeTable.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\UTF8.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\WebFont.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\XFAScanner.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\XRef.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="xpdf\Zoox.cc">
+      <Filter>PDF\C</Filter>
+    </ClCompile>
+    <ClCompile Include="SG_PDF2TXT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TextCounter.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TextCounter.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TextCounter.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="1.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
